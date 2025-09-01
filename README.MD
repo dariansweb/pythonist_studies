@@ -96,7 +96,7 @@ dis.dis(lambda: 42)
 
 ---
 
-### VI. Level 5 — The Regex Catacombs 🕸️📜  
+### V. Level 5 — The Regex Catacombs 🕸️📜  
 
 *(Fifth reroll — burdened with loot, but still foolish)*  
 
