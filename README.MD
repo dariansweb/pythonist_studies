@@ -112,17 +112,40 @@ Pythonia is endless.
 The adventure is endless.
 The loot is endless.
 
+---
+
+### VI. Level 5 — The Regex Catacombs 🕸️📜  
+
+*(Fifth reroll — burdened with loot, but still foolish)*  
+
+Beyond the Abyss lay the twisting **Regex Catacombs**, corridors carved from shifting glyphs.  
+Every wall shimmered with cryptic runes: `^`, `$`, `.*?`, and `\b`. They slithered,  
+changing shape whenever my torchlight touched them.  
+
+* The **Greedy Quantifier Ghoul** lunged first, swallowing entire passages whole.  
+* Then the **Backreference Banshee** screamed, shattering my sanity with `\1 \2 \3`.  
+* Finally, I stumbled into the lair of the **Lookbehind Lich**, who laughed:  
+  *“Error: look-behind requires fixed-width pattern.”*  
+
+I tried to sing my Bard’s Song of Escapes:  
+
+```python
+import re
+pattern = r"(\w+)\s+\1"
+re.findall(pattern, "echo echo in the deep")
+```
+But the Lich’s magic was too strong. I fell, yet from the darkness,
 
 ## 🪙 Loot Ledger  
-“Collected treasures across all my doomed lives.”
+*Collected treasures across all my doomed lives.*  
+
 | Level | Treasure |
 |-------|----------|
 | 1     | Scroll of `venv`, Canteen of `pip`, Bard’s Python Song |
 | 2     | Lockpicks of `for`, Dagger of `if/else`, Whispering Backpack |
 | 3     | Comprehension Scroll, Rogue’s One-Liner Smirk |
 | 4     | Shard of `__pycache__`, Runes of `dis`, Compiler’s Secret |
+| 5     | Regex Rosary of Patterns, Vial of Lazy Quantifiers, Cursed Scroll of `re.compile()` |
 
 
 🎶 And so the chronicles continue…
-
-```
