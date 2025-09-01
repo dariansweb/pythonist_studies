@@ -31,7 +31,7 @@ Then came the Indentation Wraith—its touch chilled my soul with four spaces.
 
 💎 Treasure gained: Scroll of venv, a canteen of pip, and the first draft of my Bard’s Python Song.
 
-II. Level 2 — The Foothills of Syntax 🏔️
+### II. Level 2 — The Foothills of Syntax 🏔️
 
 (Second reroll — scars, but stronger)
 
@@ -54,7 +54,7 @@ inventory = ["strings", "numbers", "booleans"]
 
 💎 Treasure gained: Lockpicks of for, the dagger of if/else, and a backpack that whispers secrets of structure.
 
-III. Level 3 — The Caverns of Comprehension 🐉
+### III. Level 3 — The Caverns of Comprehension 🐉
 
 (Third reroll — wiser, but doomed)
 
@@ -73,7 +73,7 @@ treasure = [loot for loot in dungeon if loot.is_shiny()]
 
 💎 Treasure gained: The Comprehension Scroll, etched with looping runes, and the rogue’s smirk of someone who knows one-liners.
 
-IV. Level 4 — The Bytecode Abyss 🕳️🔥
+### IV. Level 4 — The Bytecode Abyss 🕳️🔥
 
 (Fourth reroll — reckless curiosity)
 
@@ -90,7 +90,7 @@ dis.dis(lambda: 42)
 
 💎 Treasure gained: The Shard of __pycache__, runes of dis, and the unsettling knowledge that behind all of Pythonia, an eldritch compiler beats its wings.
 
-V. Level 5 — The Regex Catacombs 🕸️📜
+### V. Level 5 — The Regex Catacombs 🕸️📜
 
 (Fifth reroll — burdened with loot, but still foolish)
 
@@ -117,7 +117,7 @@ But the Lich’s magic was too strong. I fell—yet from the darkness, another r
 
 💎 Treasure gained: Regex Rosary of Patterns, A Vial of Lazy Quantifiers, and a Cursed Scroll of re.compile().
 
-VI. The Journey Continues… ⏳🐍
+### VI. The Journey Continues… ⏳🐍
 
 (Sixth reroll — the bard always returns)
 
