@@ -1,0 +1,29 @@
+Nested List Comprehension
+Nested list comprehension is a technique in Python where you can use one or more list comprehensions within another list comprehension to create nested or multidimensional lists. It allows you to generate complex lists with concise syntax.
+
+The basic nested list comprehension syntax looks like this
+
+[[inner_expression for inner_temp_var in inner_iterable] for outer_temp_var in outer_iterable]
+In this structure, the outer comprehension is responsible for iterating over the outer_iterable, while the inner comprehension iterates over the inner_iterable. The expression parts define the value to be included in the resulting nested list.
+
+One example that demonstrates this concept is the creation of a 2D matrix.
+
+matrix = [[j for j in range(1,4)] for i in range(3)]
+Would create this matrix
+
+matrix = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+So, it's just like the list comprehension syntax we learned earlier, but the expression itself is a list comprehension. Nested list comprehensions can be extended to multiple levels to create even more complex structures. However, it's important to maintain clarity and readability while using nested comprehensions, as overly complicated nested structures can become hard to understand and maintain. If you find yourself with a nested list comprehension that line-wraps too many times, a regular for loop might be more readable!
+
+Generator Expressions
+Generator expressions are a feature in Python that allows you to create generator objects using a similar syntax to list comprehensions. They provide a memory-efficient way to iterate over large sequences of data by generating values on-the-fly rather than storing them in memory all at once.
+
+The syntax of a generator expression is similar to a list comprehension, but instead of using square brackets ([]), you use parentheses (()). Here's an example:
+
+generator = (x**2 for x in range(1, 6))
+Looks basically the same as a list comprehension, doesn't it? If we print out each value of the generator, we'll get 1, 4, 9, 16, 25. So, what's the point of Generators?
+
+The key difference between a list comprehension and a generator expression is that a list comprehension generates the entire list in memory, while a generator expression generates values on-demand as you iterate over them. This means that generator expressions are more memory-efficient for large sequences of data since they don't require storing all the values at once. Generator expressions are particularly useful when you're working with large datasets or when you need to generate values dynamically without the need to store them all in memory.
+
+Further Learning
+We've only brushed on the concepts of nested list comprehensions and generator expressions. Both of these topics are considered more advanced aspects of Python, so you can always revisit, research, and experiment with them after you're more confident in Comprehensions.
+
