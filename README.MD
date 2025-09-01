@@ -96,24 +96,6 @@ dis.dis(lambda: 42)
 
 ---
 
-### V. The Journey Continues… ⏳🐍
-
-(Fifth reroll — burdened with loot, but still foolish)
-
-The Purple Worm devours.
-The bard rerolls.
-The rogue returns.
-
-Each incarnation climbs higher.
-Each backpack grows heavier—stuffed with `async` lockpicks, decorators of illusion,
-and ORM gems pried from the jaws of database liches.
-
-Pythonia is endless.
-The adventure is endless.
-The loot is endless.
-
----
-
 ### VI. Level 5 — The Regex Catacombs 🕸️📜  
 
 *(Fifth reroll — burdened with loot, but still foolish)*  
@@ -135,6 +117,23 @@ pattern = r"(\w+)\s+\1"
 re.findall(pattern, "echo echo in the deep")
 ```
 But the Lich’s magic was too strong. I fell, yet from the darkness,
+
+### The Journey Continues… ⏳🐍
+
+The Purple Worm devours.
+The bard rerolls.
+The rogue returns.
+
+Each incarnation climbs higher.
+Each backpack grows heavier—stuffed with `async` lockpicks, decorators of illusion,
+and ORM gems pried from the jaws of database liches.
+
+Pythonia is endless.
+The adventure is endless.
+The loot is endless.
+
+---
+
 
 ## 🪙 Loot Ledger  
 *Collected treasures across all my doomed lives.*  
